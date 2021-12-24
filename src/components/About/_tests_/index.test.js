@@ -9,8 +9,8 @@ describe('About component', () => {
     //renders About tests
     // First Test
     it('renders', () => {
-        render(<About />);
-    });
+        render(< About/>);
+    })
 
     // Second Test
     it('matches snapshot DOM node structure', () => {
